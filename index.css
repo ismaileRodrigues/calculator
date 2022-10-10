@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0ch;
+
+}
+
+body {
+    background-color: black;
+}
+.cal{
+    position: absolute;
+    padding: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(45deg, darkblue, red);
+    border-radius: 14px;
+    cursor: move;
+}
+
+.botao,.zero,.mais{
+   
+ 
+    background-color: black;
+   
+    font-size: 40px;
+    color: #f0f8ff;
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+    cursor: pointer;
+    font:bold;
+    border-radius: 14px;
+    }
+
+.botao:hover{
+    background-color: aqua;
+    color: black;
+}
+.mais{
+    height: 160px;
+    
+}
+.zero{
+    width: 160px;
+}
+.zero:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.mais:hover{
+    background-color: aqua;
+    color: black;
+}
+#resultado{
+    
+    text-align: end;
+    font-size: xx-large;
+    margin-top: 20px;
+    width: 299px;
+    height: 40px;
+    margin:auto;
+    margin-bottom: 10px;
+    border-radius: 14px;
+    background-color: #f0f8ff;
+}
+h1{
+    color: #f0f8ff;
+    text-align: center;
+}
+
+#limpa{
+   font-size: 20px;
+}
